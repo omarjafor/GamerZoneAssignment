@@ -51,6 +51,7 @@ nav .logo{
 .li-icon i{
     font-size: 24px;
 }
+
 /* Banner Section Start Here  */
 .banner-section{
     padding: 0px 240px;
@@ -98,6 +99,22 @@ nav .logo{
 }
 .btn-2{
     background: #4EC5F7;
+}
+@media screen and (max-width: 576px) {
+    header{
+        padding: 45px 20px 45px 20px;
+    }
+    nav{
+        flex-direction: column;
+        gap: 62px;
+    }
+    .menus{
+        flex-direction: column;
+        gap: 36px;
+    }
+    .menus .li-icon{
+        margin-top: 50px;
+    }
 }
 /* Online games section  */
 main {
