@@ -203,7 +203,7 @@ main{
     bottom: -75px;
     left: -145px;
 }
-
+/* Games Catagory Section Start Here  */
 .catagory-container{
     margin-top: 200px;
     display: flex;
@@ -286,6 +286,7 @@ footer .logo{
     header{
         padding: 45px 20px 45px 20px;
     }
+    /* Nav Bar Section start Here  */
     nav{
         flex-direction: column;
         gap: 50px;
@@ -330,6 +331,7 @@ footer .logo{
         width: 100%;
         text-align: center;
     }
+    /* Online Games Section Start Here  */
     main{
         padding: 50px 20px;
     }
@@ -356,6 +358,7 @@ footer .logo{
         line-height: 24px;
         text-align: center;
     }
+    /* Play Instant Section Start here  */
     .play-section{
         margin-top: 50px;
         flex-direction: column;
@@ -389,6 +392,7 @@ footer .logo{
     .play-img-badge img{
         max-width: 60%;
     }
+    /* Games Catagory Section Start Here  */
     .catagory-container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -400,5 +404,46 @@ footer .logo{
     }
     .catagory-box h3{
         font-size: 10px;
+    }
+    /* footer section start here  */
+    footer .logo{
+        padding-top: 100px;
+    }
+    .important-link{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 25px;
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .important-link a{
+        margin-left: 0px;
+    }
+    .social{
+        display: grid;
+        grid-template-columns: repeat(3, 90px);
+        justify-content: center;
+        row-gap: 25px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .term-policy{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        row-gap: 25px;
+    }
+    .term-policy small{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .footer-description{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        padding-bottom: 100px;
     }
 }
