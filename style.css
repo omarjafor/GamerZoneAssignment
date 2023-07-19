@@ -232,6 +232,7 @@ footer{
     color: #FFF;
 }
 footer .logo{
+    padding-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,21 +242,46 @@ footer .logo{
     font-size: 45px;
     font-weight: 700;
 }
-.footer-description{
-    color: #D9DBE1;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
+.important-link{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+.important-link a{
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 60px;
 }
 .social{
     padding-top: 15px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 .social .fab{
     color: white;
     font-weight: bold;
-    margin-right: 16px;
+    font-size: 30px;
+    margin-right: 20px;
 }
+.term-policy{
+    margin-bottom: 28px;
+}
+.term-policy small{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 60px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 130px;
+}
+
 @media screen and (max-width: 576px) {
     header{
         padding: 45px 20px 45px 20px;
