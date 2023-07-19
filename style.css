@@ -281,7 +281,7 @@ footer .logo{
     line-height: 24px;
     padding-bottom: 130px;
 }
-
+/* Mobile Design Responsive  */
 @media screen and (max-width: 576px) {
     header{
         padding: 45px 20px 45px 20px;
@@ -394,6 +394,7 @@ footer .logo{
     }
     /* Games Catagory Section Start Here  */
     .catagory-container{
+        margin-top: 100px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 0px;
@@ -445,5 +446,108 @@ footer .logo{
         flex-direction: column;
         font-size: 15px;
         padding-bottom: 100px;
+    }
+}
+/* Tablet Device Responsive  */
+@media screen and (min-width: 577px) and (max-width: 960px) {
+    header{
+        padding: 45px 20px 45px 20px;
+    }
+    /* Nav Bar Section start Here  */
+    nav{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .menus{
+        justify-content: center;
+        gap: 30px;
+    }
+    /* Banner Section  */
+    .banner-section{
+        padding: 0px 20px;
+        width: 100%;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+    .banner img{
+        width: 100%;
+        text-align: center;
+    }
+    /* Online Games Section Start Here  */
+    main{
+        padding: 50px 20px;
+    }
+    .og-img{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    /* Play Instant Section Start here  */
+    .play-section{
+        margin-top: 80px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .play-content{
+        text-align: center;
+    }
+    .play-description{
+        max-width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .play-img{
+        width: 80%;
+    }
+    .play-img img{
+        max-width: 100%;
+    }
+    .play-img-badge{
+        bottom: -75px;
+        left: -80px;
+    }
+    .play-img-badge img{
+        max-width: 80%;
+    }
+    /* Games Catagory Section Start Here  */
+    .catagory-container{
+        margin-top: 120px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
+        width: 100%;
+    }
+    .catagory-box h3{
+        font-size: 14px;
+    }
+    /* footer section start here  */
+    footer .logo{
+        padding-top: 100px;
+    }
+    .important-link{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 25px;
+        margin-top: 50px;
+    }
+    .important-link a{
+        margin-left: 0px;
+    }
+    .term-policy{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        row-gap: 25px;
+    }
+    .footer-description{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
     }
 }
