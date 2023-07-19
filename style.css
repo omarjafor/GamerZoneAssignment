@@ -11,6 +11,7 @@ header{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
+/* Nav bar section  */
 nav{
     display: flex;
     justify-content: space-between;
@@ -69,6 +70,8 @@ nav .logo{
     font-size: 95px;
     font-weight: 800;
     margin-bottom: 24px;
+}
+.lg{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -95,4 +98,37 @@ nav .logo{
 }
 .btn-2{
     background: #4EC5F7;
+}
+/* Online games section  */
+main {
+    padding: 120px 240px;
+}
+.og-text{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.og-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 10px;
+}
+.og-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.og-img{
+    display: flex;
+    gap: 18px;
+}
+.og-img .card img{
+    margin-bottom: 24px;
+}
+.og-img .card p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
 }
