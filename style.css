@@ -64,7 +64,6 @@ nav .logo{
 .first-title{
     color: #0B0223;
     font-size: 48px;
-    font-weight: 600;
     text-transform: uppercase;
 }
 .main-title{
@@ -101,7 +100,7 @@ nav .logo{
     background: #4EC5F7;
 }
 /* Online games section  */
-main {
+main{
     padding: 120px 240px;
 }
 .og-text{
@@ -189,8 +188,9 @@ main {
     .menus .li-icon{
         margin-top: 50px;
     }
+    /* Banner Section  */
     .banner-section{
-        padding: 0px 20px 0px 20px;
+        padding: 0px 20px;
         width: 100%;
     }
     .banner{
@@ -198,10 +198,53 @@ main {
         justify-content: center;
         align-items: center;
         gap: 70px;
-        margin-left: 40px;
+    }
+    .first-title{
+        font-size: 40px;
+        text-align: center;
+    }
+    .main-title{
+        font-size: 80px;
+        text-align: center;
+    }
+    .banner-description{
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 20px;
+    }
+    .btn{
+        padding: 15px 30px;
+        font-size: 18px;
+        text-align: center;
     }
     .banner img{
         width: 100%;
+        text-align: center;
+    }
+    main{
+        padding: 50px 20px;
+    }
+    .og-img{
+        flex-direction: column;
+        gap: 18px;
+        width: 90%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .og-title{
+        font-size: 27px;
+        font-weight: 800;
+        padding: 5px;
+    }
+    .og-description{
+        font-size: 13px;
+    }
+    .og-container{
+        margin-bottom: 10px;
+    }
+    .og-img .card p{
+        font-size: 12px;
+        line-height: 24px;
         text-align: center;
     }
 }
