@@ -203,6 +203,27 @@ main{
     bottom: -75px;
     left: -145px;
 }
+
+.catagory-container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    flex-wrap: wrap;
+}
+.catagory-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px;
+}
+.catagory-box:hover{
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+}
 @media screen and (max-width: 576px) {
     header{
         padding: 45px 20px 45px 20px;
@@ -309,5 +330,17 @@ main{
     }
     .play-img-badge img{
         max-width: 60%;
+    }
+    .catagory-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
+        width: 100%;
+    }
+    .catagory-box img{
+        width: 30%;
+    }
+    .catagory-box h3{
+        font-size: 10px;
     }
 }
